@@ -111,19 +111,3 @@ terraform test
 - `alarm_match_string`: The log substring to count (default `ALERT_TRIGGER`).
 
 ---
-
-## Improvements you can discuss in review
-
-- Use private subnets + NAT and an internal service + public ALB.
-- Add WAFv2 on ALB.
-- Add TLS (ACM cert + HTTPS listener).
-- Use Service Discovery + ECS Exec.
-- Autoscaling on CPU/Memory requests.
-- Replace public subnets with private, add NAT/egress VPC endpoints.
-- IaC lint/security scanning (tflint, tfsec) and OPA policy checks.
-- Blue/Green deploys with CodeDeploy, canary, health checks.
-- Replace Flask with your own app, add health endpoints and metrics.
-
----
-
-Happy hacking!
